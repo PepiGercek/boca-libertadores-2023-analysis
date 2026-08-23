@@ -1,0 +1,27 @@
+fase,partido,equipo,rival,localia,posesion,xG,xG_jugada,xG_pelota_parada,xG_sin_penal,xGOT,remates,remates_arco,remates_fuera,remates_bloqueados,remates_area,remates_fuera_area,grandes_ocasiones,grandes_ocasiones_falladas,pases,pases_acertados,precision_pases,pases_campo_propio,pases_campo_rival,largos_acertados,precision_largos,centros_acertados,precision_centros,duelos_ganados,duelos_suelo_ganados,pct_duelos_suelo,duelos_aereos_ganados,pct_duelos_aereos,regates_exitosos,pct_regates,tackles,intercepciones,bloqueos,despejes,atajadas,faltas,corners,offsides,amarillas,rojas,goles,goles_rival
+Grupos,Monagas vs Boca,Monagas,Boca Juniors,Local,51,0.48,0.32,0.15,0.48,0.24,13,3,5,5,5,8,0,0,344,273,79,135,138,22,49,5,42,41,33,40,8,62,15,58,11,4,2,19,4,20,2,3,3,0,0,0
+Grupos,Monagas vs Boca,Boca Juniors,Monagas,Visitante,49,0.68,0.56,0.12,0.68,0.86,13,4,7,2,6,7,1,1,315,239,76,134,105,35,49,4,16,54,49,60,5,38,11,55,18,14,5,6,3,9,7,1,4,2,0,0
+Grupos,Boca vs Deportivo Pereira,Boca Juniors,Deportivo Pereira,Local,59,1.07,0.68,0.39,1.07,1.25,16,4,9,3,7,9,0,0,434,366,84,178,188,24,59,5,18,68,60,58,8,42,13,50,27,15,3,9,4,10,2,0,4,0,2,1
+Grupos,Boca vs Deportivo Pereira,Deportivo Pereira,Boca Juniors,Visitante,41,0.7,0.7,0.11,0.7,1.09,11,5,3,3,6,5,0,0,317,238,75,126,112,28,45,4,57,54,43,42,11,58,10,45,24,14,3,23,2,21,2,0,5,1,1,2
+Grupos,Colo-Colo vs Boca,Colo-Colo,Boca Juniors,Local,51,0.76,0.59,0.17,0.76,0.68,13,4,4,5,7,6,0,0,410,317,77,156,161,33,46,4,15,45,36,47,9,53,9,45,18,6,1,7,3,11,7,2,4,1,0,2
+Grupos,Colo-Colo vs Boca,Boca Juniors,Colo-Colo,Visitante,49,1.58,1.58,0.0,1.58,1.65,8,5,2,1,5,3,3,2,409,332,81,242,90,22,37,0,0,49,41,53,8,47,8,73,22,13,5,32,4,10,2,2,2,0,2,0
+Grupos,Deportivo Pereira vs Boca,Deportivo Pereira,Boca Juniors,Local,36,1.62,0.52,0.31,0.83,2.41,12,5,4,3,6,6,2,2,310,235,76,132,103,27,49,5,50,53,39,49,14,52,7,54,20,9,0,22,3,12,6,1,5,0,1,0
+Grupos,Deportivo Pereira vs Boca,Boca Juniors,Deportivo Pereira,Visitante,64,0.62,0.3,0.32,0.62,0.43,8,3,5,0,6,2,1,1,560,491,88,306,185,19,43,3,12,53,40,51,13,48,11,55,17,7,3,17,4,12,7,1,3,0,0,1
+Grupos,Boca vs Colo-Colo,Boca Juniors,Colo-Colo,Local,57,1.72,1.62,0.09,1.72,2.48,13,6,7,0,8,5,4,4,485,374,77,226,148,22,34,5,45,60,45,59,15,48,6,67,18,13,7,19,1,7,3,1,0,0,1,0
+Grupos,Boca vs Colo-Colo,Colo-Colo,Boca Juniors,Visitante,43,1.1,0.9,0.19,1.1,0.23,11,1,3,7,7,4,2,2,361,258,71,115,143,15,30,1,7,47,31,41,16,52,11,50,13,13,1,14,4,22,2,3,4,0,0,1
+Grupos,Boca vs Monagas,Boca Juniors,Monagas,Local,64,4.54,3.41,1.13,4.54,5.86,21,11,8,2,17,4,9,6,517,445,86,275,170,19,50,2,15,54,45,54,9,47,10,40,25,7,1,16,2,4,4,1,1,1,4,0
+Grupos,Boca vs Monagas,Monagas,Boca Juniors,Visitante,36,0.41,0.23,0.19,0.41,0.09,8,2,5,1,2,6,0,0,286,225,79,100,125,15,43,1,8,48,38,46,10,53,10,38,24,8,2,12,7,13,6,3,2,1,0,4
+Octavos,Nacional vs Boca,Nacional,Boca Juniors,Local,45,1.04,0.81,0.23,1.04,0.13,12,2,6,4,7,5,1,1,387,284,73,144,140,32,44,2,8,61,51,57,10,42,8,50,34,7,1,4,0,9,3,1,1,0,0,0
+Octavos,Nacional vs Boca,Boca Juniors,Nacional,Visitante,55,0.5,0.06,0.44,0.5,0.0,4,0,3,1,2,2,0,0,489,397,81,165,232,17,35,2,20,53,39,43,14,58,10,37,20,11,4,31,2,10,4,0,2,0,0,0
+Octavos,Boca vs Nacional,Boca Juniors,Nacional,Local,64,2.47,2.43,0.04,2.47,1.52,17,4,10,3,14,3,2,1,543,459,85,232,227,24,49,6,23,37,21,43,16,55,6,50,1,10,1,10,2,11,4,0,3,0,2,2
+Octavos,Boca vs Nacional,Nacional,Boca Juniors,Visitante,36,1.03,0.78,0.26,1.03,2.05,9,4,4,1,5,4,3,1,307,208,68,133,75,21,30,2,20,41,28,57,13,45,4,80,15,5,3,28,2,14,3,1,4,0,2,2
+Cuartos,Boca vs Racing,Boca Juniors,Racing Club,Local,57,0.85,0.61,0.24,0.85,0.47,14,5,7,2,11,3,0,0,513,415,81,213,202,28,57,8,29,47,29,44,18,62,6,35,12,10,4,11,3,12,11,3,3,0,0,0
+Cuartos,Boca vs Racing,Racing Club,Boca Juniors,Visitante,43,0.48,0.39,0.09,0.48,0.31,7,3,0,4,2,5,1,1,401,295,74,170,125,20,31,1,6,48,37,56,11,38,6,46,20,8,2,16,5,11,2,0,2,0,0,0
+Cuartos,Racing vs Boca,Racing Club,Boca Juniors,Local,54,0.64,0.52,0.13,0.64,0.0,11,0,8,3,6,5,0,0,443,333,75,148,185,26,38,4,18,48,34,49,14,50,5,38,16,10,2,11,1,8,4,4,1,0,0,0
+Cuartos,Racing vs Boca,Boca Juniors,Racing Club,Visitante,46,0.3,0.3,0.01,0.3,0.55,5,1,2,2,3,2,1,1,390,267,68,163,104,22,31,6,40,50,36,51,14,50,8,47,20,5,3,17,0,15,4,3,2,0,0,0
+Semifinal,Boca vs Palmeiras,Boca Juniors,Palmeiras,Local,56,1.57,1.44,0.13,1.57,1.28,18,7,7,4,14,4,3,3,509,403,79,207,196,14,29,8,30,47,36,53,11,52,11,79,10,6,2,4,2,13,3,1,2,0,0,0
+Semifinal,Boca vs Palmeiras,Palmeiras,Boca Juniors,Visitante,44,0.43,0.42,0.02,0.43,0.24,9,2,5,2,6,3,1,1,408,318,78,206,112,23,41,2,50,42,32,47,10,48,7,58,12,12,3,26,7,16,1,1,1,0,0,0
+Semifinal,Palmeiras vs Boca,Palmeiras,Boca Juniors,Local,68,1.36,0.97,0.39,1.36,1.17,24,8,6,10,11,13,0,0,439,382,87,186,196,33,69,12,38,44,30,46,14,56,5,31,13,6,0,14,2,14,6,1,4,0,1,1
+Semifinal,Palmeiras vs Boca,Boca Juniors,Palmeiras,Visitante,32,0.95,0.94,0.01,0.95,1.22,3,3,0,0,2,1,1,0,212,141,67,57,84,14,24,0,0,46,35,54,11,44,4,44,17,2,10,35,7,13,1,1,5,1,1,1
+Final,Boca vs Fluminense,Boca Juniors,Fluminense,Local,47,0.5,0.34,0.16,0.5,0.97,15,5,4,6,2,13,0,0,486,397,82,172,225,22,43,3,8,57,44,49,13,46,7,44,25,10,2,12,4,14,7,1,4,1,1,2
+Final,Boca vs Fluminense,Fluminense,Boca Juniors,Visitante,53,1.09,0.84,0.25,1.09,1.38,13,6,5,2,5,8,2,1,587,492,84,289,203,21,38,4,33,60,45,51,15,54,9,45,24,5,6,25,4,14,3,0,3,1,2,1
