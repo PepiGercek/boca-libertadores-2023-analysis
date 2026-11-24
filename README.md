@@ -1,10 +1,48 @@
-# Boca Juniors - Copa Libertadores 2023
+# Boca Juniors en la Copa Libertadores 2023
 
-## Pregunta central
+**¿Cómo llegó Boca a la final de la Libertadores 2023 sin ganar ningún partido de eliminación directa en los 90 minutos?**
 
-**¿Cómo llegó Boca Juniors a la final de la Copa Libertadores 2023 sin ganar ningún partido de eliminación directa en los 90 minutos?**
+![Efectividad de Sergio Romero en tandas de penales: 54,55% en la Libertadores 2023, 15% en el resto de su carrera y 38,46% de Óscar Córdoba en 2000 y 2001](reports/romero_efectividad_penales.png)
 
-Este proyecto analiza el recorrido de Boca en la Libertadores 2023 combinando estadísticas de partido, datos individuales, contexto táctico y rendimiento en definiciones por penales.
+## En 30 segundos
+
+- **Romero fue el factor más extraordinario:** atajó 6 de 11 penales en tandas (54,55%). Según su historial previo (15,79%), la probabilidad de lograrlo era de **0,348%** con un modelo binomial.
+- **Boca bajó su producción en el mata-mata:** el xG por partido cayó de **1,70** en la fase de grupos a **1,02** en las eliminatorias.
+- **Hubo dos Bocas según la localía:** en la Bombonera generó **1,63 xG** por partido; de visitante, **0,58**, con 4 remates por partido.
+
+![xG promedio de Boca y sus rivales según localía en el mata-mata](reports/xg_local_vs_visitante.png)
+
+## Qué muestra este proyecto
+
+- Descarga de datos de FotMob y SofaScore con LanusStats, y scraping de tablas de El Gráfico.
+- Limpieza y armado de un dataset propio por partido: [`data/partidos_boca_2023_completo.csv`](data/partidos_boca_2023_completo.csv).
+- Análisis comparativo con pandas, visualización con matplotlib y mplsoccer, y un modelo probabilístico con scipy.
+- Conclusiones escritas y respaldadas con números.
+
+## Cómo está armado el dataset
+
+Cada fila es la estadística de un equipo en un partido de Boca (13 partidos, 26 filas). Las estadísticas se descargan de FotMob con LanusStats a partir del identificador de cada partido, y se completan con los goles del detalle del partido. Los datos de jugadores y formaciones salen de las alineaciones de FotMob, y el historial de penales de Romero, de una tabla publicada por El Gráfico.
+
+## Cómo reproducirlo
+
+```bash
+git clone https://github.com/PepiGercek/boca-libertadores-2023-analysis.git
+cd boca-libertadores-2023-analysis
+python -m venv .venv
+.venv\Scripts\activate        # Windows (en Linux o macOS: source .venv/bin/activate)
+pip install -r requirements.txt
+jupyter notebook analisis_boca_libertadores_2023.ipynb
+```
+
+Algunas celdas consultan FotMob, SofaScore y El Gráfico en vivo, así que los resultados dependen de que esas fuentes sigan disponibles.
+
+## Estructura
+
+```
+analisis_boca_libertadores_2023.ipynb   análisis completo
+data/partidos_boca_2023_completo.csv    estadísticas por partido
+reports/                                gráficos exportados del notebook
+```
 
 ## Fuentes de datos
 
@@ -67,6 +105,6 @@ La combinación fue suficiente para alcanzar la final. Frente a Fluminense, la m
 
 ## Notebook
 
-El análisis completo, incluyendo preparación de datos, métricas, visualizaciones y conclusiones, se encuentra en:
+El análisis completo, con la preparación de datos, las métricas, las visualizaciones y las conclusiones, está en [`analisis_boca_libertadores_2023.ipynb`](analisis_boca_libertadores_2023.ipynb).
 
-`boca_libertadores_2023_ordenado_final.ipynb`
+![Boca: fase de grupos vs mata-mata](reports/grupos_vs_mata_mata.png)
